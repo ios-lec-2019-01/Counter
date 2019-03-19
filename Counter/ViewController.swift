@@ -16,6 +16,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        myCounter.text = "0"
     }
 
     @IBAction func buttonPressed(_ sender: Any) {
@@ -27,8 +28,8 @@ class ViewController: UIViewController {
         }
 
         if count == 10 {
-            myCounter.text = String(count - 1)
             count = 0
+            myCounter.text = String(count)
         }
     }
 }
