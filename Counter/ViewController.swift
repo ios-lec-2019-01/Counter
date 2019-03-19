@@ -12,8 +12,6 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var myCounter: UILabel!
     var count = 0
-    var upCount = 0
-    var downCount = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
