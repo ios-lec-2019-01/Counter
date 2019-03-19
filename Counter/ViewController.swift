@@ -32,7 +32,6 @@ class ViewController: UIViewController {
             myCounter.text = String(count - 1)
             count = 0
         }
-        
     }
 }
 
